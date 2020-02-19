@@ -1,0 +1,81 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Lora', serif;
+ }
+
+em {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  background-image: linear-gradient(#E2E2E2, #FCFCFC);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+a:hover {
+  background-image: linear-gradient(#FFC6C6, #FFFFFF);
+}
+
+h2, a {
+  color: #A0A0A0;
+}
+
+.container {
+  padding: 20px 25%;
+}
+
+@media(max-width: 576) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+.font-lora {
+  font-family: 'Lora', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color-white {
+  color: white;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  margin: 0 auto;
+  height: 200px;
+  padding: 120px 0;
+}
+
+.light-font-weigth {
+  font-weight: lighter;
+}
